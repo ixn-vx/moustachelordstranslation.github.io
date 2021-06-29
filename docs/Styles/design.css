@@ -205,7 +205,10 @@ header .slideshow ul{
 padding: 0px;
 margin: 0px;
 }
-
+.discord{
+	position: relative;
+margin-right: 10px;	
+}
 
 }
 
