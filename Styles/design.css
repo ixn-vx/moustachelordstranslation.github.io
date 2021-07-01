@@ -22,6 +22,9 @@ header{
 	position: relative;
 
 }
+body{
+	background: #262626;
+}
 
 figure{
 	margin: 0px
