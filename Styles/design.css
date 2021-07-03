@@ -126,7 +126,7 @@ header{
 
 	header h1{
 	display: inline-block;
-width: 30%;
+
 	margin: 0px 0px 0px 50px;
 padding: 0px;
 	height: 50px;
@@ -212,6 +212,40 @@ margin: 0px;
 	position: relative;
 margin-right: 10px;	
 }
+
+.container {
+
+max-width: 300px;
+display: inline-block;
+background: #282c34;
+text-align: center;
+margin: 10px 10px 10px 10px;
+}
+.container span{
+right: 50px;
+	top: 40px;
+	padding: 2px 4px 2px 4px;
+	position: relative;
+	text-align: left;
+	color: white;
+	background: #cba02c;
+	border-radius: 5px 5px 5px 5px;
+}
+.album{
+background: red;
+align-content: center;
+}
+.container h6{
+	font-size:15px;
+	color: white;
+	margin: 0px;
+	line-height: 30px;
+}
+.container img{
+	width: 100%;
+}
+
+
 
 }
 
