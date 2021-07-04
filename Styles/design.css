@@ -235,7 +235,7 @@ right: 100px;
 	border-radius: 5px 5px 5px 5px;
 }
 .album{
-background: red;
+
 display: flex;
 flex-direction: row;
 flex-wrap: wrap;
@@ -275,26 +275,15 @@ justify-content: center
 	
 }
 
-.parallax__container {
-	clip: rect(0, auto, auto, 0);
-	height: 100%;
-	left: 0;
-	overflow: hidden;
-	position: absolute;
-	top: 0;
-	width: 100%;
-	z-index: -100;
-}
 
-.parallax {
-	position: fixed;
-	top: 0;
-	transform: translate3d(0, 0, 0);
-	transform-style: preserve-3d;
-	width: 100%;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
+
+
+#teAyudamos{
+ position: relative;
+ top: 30px;
+  overflow: height;
+  background:url(https://i.ibb.co/bKSydgH/parallaxxx.png) center center / cover no-repeat fixed;
+  transform: scale(1.2);
 }
 
 
